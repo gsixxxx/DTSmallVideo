@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E67A4801E10C79E00AFD7A2 /* icon_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E67A47F1E10C79E00AFD7A2 /* icon_save.png */; };
+		1E67A4861E10E3AD00AFD7A2 /* DTRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */; };
+		1E7D04301E078BE30064B530 /* icon_complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D042F1E078BE30064B530 /* icon_complete.png */; };
+		1E7D04331E07EC690064B530 /* icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04311E07EC690064B530 /* icon_delete.png */; };
+		1E7D04341E07EC690064B530 /* icon_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04321E07EC690064B530 /* icon_backward.png */; };
+		1E7D04381E0A692F0064B530 /* icon_restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D04371E0A692F0064B530 /* icon_restart.png */; };
 		1EBE47F51E0245BF00907668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE47F41E0245BF00907668 /* main.m */; };
 		1EBE47F81E0245BF00907668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE47F71E0245BF00907668 /* AppDelegate.m */; };
-		1EBE47FB1E0245BF00907668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE47FA1E0245BF00907668 /* ViewController.m */; };
-		1EBE47FE1E0245BF00907668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE47FC1E0245BF00907668 /* Main.storyboard */; };
 		1EBE48001E0245BF00907668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE47FF1E0245BF00907668 /* Assets.xcassets */; };
-		1EBE48031E0245BF00907668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE48011E0245BF00907668 /* LaunchScreen.storyboard */; };
 		1EBE480E1E0245BF00907668 /* DTSmallVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE480D1E0245BF00907668 /* DTSmallVideoTests.m */; };
 		1EBE48191E0245BF00907668 /* DTSmallVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE48181E0245BF00907668 /* DTSmallVideoUITests.m */; };
+		1EBE482F1E0246F100907668 /* MianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE482E1E0246F100907668 /* MianViewController.m */; };
+		1EBE48321E02473A00907668 /* DTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBE48311E02473A00907668 /* DTNavigationController.m */; };
+		1EC9A5EE1E024E9F0057AC0B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */; };
+		1EC9A5F91E02791E0057AC0B /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5F81E02791E0057AC0B /* icon_back.png */; };
+		1EC9A5FB1E02798C0057AC0B /* icon_camera_switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */; };
+		1EC9A5FD1E0279A80057AC0B /* icon_camera_switch_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */; };
+		1EC9A6011E027BB30057AC0B /* icon_flash_auto.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */; };
+		1EC9A6021E027BB30057AC0B /* icon_flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A5FF1E027BB30057AC0B /* icon_flash.png */; };
+		1EC9A6031E027BB30057AC0B /* icon_flash_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6001E027BB30057AC0B /* icon_flash_close.png */; };
+		1EC9A6061E0280540057AC0B /* DTRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6051E0280540057AC0B /* DTRecordView.m */; };
+		1EC9A6091E028A940057AC0B /* icon_record_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6071E028A940057AC0B /* icon_record_0.png */; };
+		1EC9A60A1E028A940057AC0B /* icon_record_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EC9A6081E028A940057AC0B /* icon_record_1.png */; };
+		1EC9A6131E02B55D0057AC0B /* DTVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */; };
+		1EC9A6161E03D9200057AC0B /* RecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9A6151E03D9200057AC0B /* RecordProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E67A47F1E10C79E00AFD7A2 /* icon_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_save.png; sourceTree = "<group>"; };
+		1E67A4841E10E3AD00AFD7A2 /* DTRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRecordViewController.h; sourceTree = "<group>"; };
+		1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRecordViewController.m; sourceTree = "<group>"; };
+		1E7D042F1E078BE30064B530 /* icon_complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_complete.png; sourceTree = "<group>"; };
+		1E7D04311E07EC690064B530 /* icon_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_delete.png; sourceTree = "<group>"; };
+		1E7D04321E07EC690064B530 /* icon_backward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_backward.png; sourceTree = "<group>"; };
+		1E7D04371E0A692F0064B530 /* icon_restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_restart.png; sourceTree = "<group>"; };
 		1EBE47F01E0245BF00907668 /* DTSmallVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTSmallVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBE47F41E0245BF00907668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EBE47F61E0245BF00907668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1EBE47F71E0245BF00907668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1EBE47F91E0245BF00907668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1EBE47FA1E0245BF00907668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1EBE47FD1E0245BF00907668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EBE47FF1E0245BF00907668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EBE48021E0245BF00907668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EBE48041E0245BF00907668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EBE48091E0245BF00907668 /* DTSmallVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSmallVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBE480D1E0245BF00907668 /* DTSmallVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSmallVideoTests.m; sourceTree = "<group>"; };
@@ -51,6 +71,27 @@
 		1EBE48141E0245BF00907668 /* DTSmallVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTSmallVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBE48181E0245BF00907668 /* DTSmallVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTSmallVideoUITests.m; sourceTree = "<group>"; };
 		1EBE481A1E0245BF00907668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBE48261E0245D700907668 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1EBE482D1E0246F100907668 /* MianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MianViewController.h; sourceTree = "<group>"; };
+		1EBE482E1E0246F100907668 /* MianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MianViewController.m; sourceTree = "<group>"; };
+		1EBE48301E02473A00907668 /* DTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTNavigationController.h; sourceTree = "<group>"; };
+		1EBE48311E02473A00907668 /* DTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTNavigationController.m; sourceTree = "<group>"; };
+		1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1EC9A5F71E0268FA0057AC0B /* SmallVideoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallVideoHeader.h; sourceTree = "<group>"; };
+		1EC9A5F81E02791E0057AC0B /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera_switch.png; sourceTree = "<group>"; };
+		1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera_switch_1.png; sourceTree = "<group>"; };
+		1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_auto.png; sourceTree = "<group>"; };
+		1EC9A5FF1E027BB30057AC0B /* icon_flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash.png; sourceTree = "<group>"; };
+		1EC9A6001E027BB30057AC0B /* icon_flash_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_flash_close.png; sourceTree = "<group>"; };
+		1EC9A6041E0280540057AC0B /* DTRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTRecordView.h; sourceTree = "<group>"; };
+		1EC9A6051E0280540057AC0B /* DTRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTRecordView.m; sourceTree = "<group>"; };
+		1EC9A6071E028A940057AC0B /* icon_record_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_record_0.png; sourceTree = "<group>"; };
+		1EC9A6081E028A940057AC0B /* icon_record_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_record_1.png; sourceTree = "<group>"; };
+		1EC9A6111E02B55D0057AC0B /* DTVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTVideoModel.h; sourceTree = "<group>"; };
+		1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVideoModel.m; sourceTree = "<group>"; };
+		1EC9A6141E03D9200057AC0B /* RecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordProgressView.h; sourceTree = "<group>"; };
+		1EC9A6151E03D9200057AC0B /* RecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +142,16 @@
 		1EBE47F21E0245BF00907668 /* DTSmallVideo */ = {
 			isa = PBXGroup;
 			children = (
-				1EBE47F61E0245BF00907668 /* AppDelegate.h */,
-				1EBE47F71E0245BF00907668 /* AppDelegate.m */,
-				1EBE47F91E0245BF00907668 /* ViewController.h */,
-				1EBE47FA1E0245BF00907668 /* ViewController.m */,
-				1EBE47FC1E0245BF00907668 /* Main.storyboard */,
+				1EC9A5F31E024F7B0057AC0B /* DT-SmallVideoSDK */,
+				1EBE48271E02469200907668 /* Images */,
+				1EBE48281E02469200907668 /* Models */,
+				1EBE48291E02469200907668 /* ThirdPartyLib */,
+				1EBE482A1E02469200907668 /* UserDefinedTools */,
+				1EBE482B1E02469200907668 /* ViewControllers */,
+				1EBE482C1E02469200907668 /* Views */,
+				1EBE482D1E0246F100907668 /* MianViewController.h */,
+				1EBE482E1E0246F100907668 /* MianViewController.m */,
 				1EBE47FF1E0245BF00907668 /* Assets.xcassets */,
-				1EBE48011E0245BF00907668 /* LaunchScreen.storyboard */,
 				1EBE48041E0245BF00907668 /* Info.plist */,
 				1EBE47F31E0245BF00907668 /* Supporting Files */,
 			);
@@ -117,7 +161,11 @@
 		1EBE47F31E0245BF00907668 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1EBE47F61E0245BF00907668 /* AppDelegate.h */,
+				1EBE47F71E0245BF00907668 /* AppDelegate.m */,
 				1EBE47F41E0245BF00907668 /* main.m */,
+				1EBE48261E0245D700907668 /* PrefixHeader.pch */,
+				1EC9A5ED1E024E9F0057AC0B /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +186,87 @@
 				1EBE481A1E0245BF00907668 /* Info.plist */,
 			);
 			path = DTSmallVideoUITests;
+			sourceTree = "<group>";
+		};
+		1EBE48271E02469200907668 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1E67A47F1E10C79E00AFD7A2 /* icon_save.png */,
+				1E7D04371E0A692F0064B530 /* icon_restart.png */,
+				1E7D04311E07EC690064B530 /* icon_delete.png */,
+				1E7D04321E07EC690064B530 /* icon_backward.png */,
+				1EC9A5F81E02791E0057AC0B /* icon_back.png */,
+				1EC9A5FA1E02798C0057AC0B /* icon_camera_switch.png */,
+				1EC9A5FC1E0279A80057AC0B /* icon_camera_switch_1.png */,
+				1EC9A5FE1E027BB30057AC0B /* icon_flash_auto.png */,
+				1EC9A5FF1E027BB30057AC0B /* icon_flash.png */,
+				1EC9A6001E027BB30057AC0B /* icon_flash_close.png */,
+				1EC9A6071E028A940057AC0B /* icon_record_0.png */,
+				1EC9A6081E028A940057AC0B /* icon_record_1.png */,
+				1E7D042F1E078BE30064B530 /* icon_complete.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1EBE48281E02469200907668 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EBE48291E02469200907668 /* ThirdPartyLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdPartyLib;
+			sourceTree = "<group>";
+		};
+		1EBE482A1E02469200907668 /* UserDefinedTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDefinedTools;
+			sourceTree = "<group>";
+		};
+		1EBE482B1E02469200907668 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9A5EF1E024EFF0057AC0B /* BaseViewControllers */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EBE482C1E02469200907668 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1EC9A5EF1E024EFF0057AC0B /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1EBE48301E02473A00907668 /* DTNavigationController.h */,
+				1EBE48311E02473A00907668 /* DTNavigationController.m */,
+			);
+			name = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		1EC9A5F31E024F7B0057AC0B /* DT-SmallVideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9A5F71E0268FA0057AC0B /* SmallVideoHeader.h */,
+				1EC9A6041E0280540057AC0B /* DTRecordView.h */,
+				1EC9A6051E0280540057AC0B /* DTRecordView.m */,
+				1EC9A6111E02B55D0057AC0B /* DTVideoModel.h */,
+				1EC9A6121E02B55D0057AC0B /* DTVideoModel.m */,
+				1EC9A6141E03D9200057AC0B /* RecordProgressView.h */,
+				1EC9A6151E03D9200057AC0B /* RecordProgressView.m */,
+				1E67A4841E10E3AD00AFD7A2 /* DTRecordViewController.h */,
+				1E67A4851E10E3AD00AFD7A2 /* DTRecordViewController.m */,
+			);
+			path = "DT-SmallVideoSDK";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +378,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EBE48031E0245BF00907668 /* LaunchScreen.storyboard in Resources */,
+				1EC9A6011E027BB30057AC0B /* icon_flash_auto.png in Resources */,
+				1EC9A5F91E02791E0057AC0B /* icon_back.png in Resources */,
+				1EC9A6031E027BB30057AC0B /* icon_flash_close.png in Resources */,
+				1EC9A60A1E028A940057AC0B /* icon_record_1.png in Resources */,
+				1EC9A6021E027BB30057AC0B /* icon_flash.png in Resources */,
+				1EC9A6091E028A940057AC0B /* icon_record_0.png in Resources */,
+				1E67A4801E10C79E00AFD7A2 /* icon_save.png in Resources */,
+				1E7D04381E0A692F0064B530 /* icon_restart.png in Resources */,
+				1E7D04341E07EC690064B530 /* icon_backward.png in Resources */,
+				1EC9A5EE1E024E9F0057AC0B /* Launch Screen.storyboard in Resources */,
+				1E7D04301E078BE30064B530 /* icon_complete.png in Resources */,
 				1EBE48001E0245BF00907668 /* Assets.xcassets in Resources */,
-				1EBE47FE1E0245BF00907668 /* Main.storyboard in Resources */,
+				1E7D04331E07EC690064B530 /* icon_delete.png in Resources */,
+				1EC9A5FB1E02798C0057AC0B /* icon_camera_switch.png in Resources */,
+				1EC9A5FD1E0279A80057AC0B /* icon_camera_switch_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +417,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EBE47FB1E0245BF00907668 /* ViewController.m in Sources */,
+				1EBE482F1E0246F100907668 /* MianViewController.m in Sources */,
 				1EBE47F81E0245BF00907668 /* AppDelegate.m in Sources */,
 				1EBE47F51E0245BF00907668 /* main.m in Sources */,
+				1EBE48321E02473A00907668 /* DTNavigationController.m in Sources */,
+				1EC9A6061E0280540057AC0B /* DTRecordView.m in Sources */,
+				1E67A4861E10E3AD00AFD7A2 /* DTRecordViewController.m in Sources */,
+				1EC9A6161E03D9200057AC0B /* RecordProgressView.m in Sources */,
+				1EC9A6131E02B55D0057AC0B /* DTVideoModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,25 +458,6 @@
 			targetProxy = 1EBE48151E0245BF00907668 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1EBE47FC1E0245BF00907668 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EBE47FD1E0245BF00907668 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1EBE48011E0245BF00907668 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EBE48021E0245BF00907668 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1EBE481B1E0245BF00907668 /* Debug */ = {
@@ -428,7 +555,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DTSmallVideo/PrefixHeader.pch";
 				INFOPLIST_FILE = DTSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,7 +569,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KHTZC94G5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DTSmallVideo/PrefixHeader.pch";
 				INFOPLIST_FILE = DTSmallVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DreamTree-Tech.DTSmallVideo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +647,7 @@
 				1EBE481F1E0245BF00907668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EBE48201E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +656,7 @@
 				1EBE48221E0245BF00907668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EBE48231E0245BF00907668 /* Build configuration list for PBXNativeTarget "DTSmallVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +665,7 @@
 				1EBE48251E0245BF00907668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
