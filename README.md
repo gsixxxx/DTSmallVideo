@@ -16,4 +16,4 @@ DTRecordViewController *recordViewController = [[DTRecordViewController alloc]in
 ## Customization
   Cutomize DTRecordViewController To Change Interface <br>
   更改 DTRecordViewController 自定义录制页面 <br>
-  ![image](https://github.com/xxxx.jpg)
+  ![image](https://github.com/DTSmallVideo/blob/master/DTvideoPic.png)
