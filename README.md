@@ -14,6 +14,6 @@ DTRecordViewController *recordViewController = [[DTRecordViewController alloc]in
 [self.navigationController pushViewController:recordViewController animated:YES];
 ```
 ## Customization
-  Cutomize DTRecordViewController To Change Interface <br>
-  更改 DTRecordViewController 自定义录制页面 <br>
+       Cutomize DTRecordViewController To Change Interface <br>
+       更改 DTRecordViewController 自定义录制页面 <br>
   ![image](https://raw.githubusercontent.com/gsixxxx/DTSmallVideo/master/DTvideoPic.png)
